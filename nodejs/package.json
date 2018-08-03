@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "for app's server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackLorentz/Android_with_NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "net"
+  ],
+  "author": "jackLorentz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackLorentz/Android_with_NodeJS/issues"
+  },
+  "homepage": "https://github.com/JackLorentz/Android_with_NodeJS#readme",
+  "dependencies": {
+    "net": "^1.0.2",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.0",
+    "mysql": "^2.15.0",
+    "socket.io": "^2.1.1"
+  }
+}
