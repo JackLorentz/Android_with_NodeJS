@@ -36,7 +36,8 @@ public class Client implements Runnable{
             s.shutdownOutput();
         }
         catch (IOException e){
-            Log.i(TAG, "Socket連線有問題!");
+            e.printStackTrace();
+            Log.e(TAG, "Socket連線: " + e.toString());
         }
 
         try{
@@ -46,7 +47,8 @@ public class Client implements Runnable{
             }
         }
         catch(IOException e){
-            Log.i(TAG, "Socket連線有問題!");
+            e.printStackTrace();
+            Log.e(TAG, "Socket連線: " + e.toString());
         }
     }
 }
